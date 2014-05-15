@@ -1,0 +1,24 @@
+{
+  "family": "{%= family %}",
+  "name": "{%= name %}",
+  "version": "{%= version %}",
+  "description": "{%= description %}",
+  "homepage": "{%= homepage %}",
+  "author": "{%= author %}",
+  "maintainers": [
+    "{%= author %}"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "{%= repository %}"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "{%= licenses %}",
+  "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-clean": "~0.4.0"
+    }
+}
